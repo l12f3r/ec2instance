@@ -1,0 +1,17 @@
+region = "eu-west-1"
+vpc_cidr_block = "10.0.0.0/16"
+vpc_name = "my-vpc"
+subnet_cidr_block = "10.0.0.0/24"
+availability_zone = "eu-west-1a"
+subnet_name = "my-subnet"
+security_group_name = "my-security-group"
+ingress_port = 22
+ingress_protocol = "tcp"
+ingress_cidr = "0.0.0.0/0"
+egress_port = 0
+egress_protocol = "-1"
+egress_cidr = "0.0.0.0/0"
+ami_id = "ami-0a9761f7c8af71e13"
+key_name = "terraform-test-key"
+instance_type = "t2.micro"
+instance_name = "my-instance"
